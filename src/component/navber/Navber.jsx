@@ -6,9 +6,9 @@ const navber = () => {
         <div className="container mx-auto">
         <div className="navbar bg-base-100 shadow-sm">
           <div className="flex-1">
-            <img src={logo} alt="" />
+            <img src={logo} alt="Website logo" />
           </div>
-          <div className="flex-none ">
+          <div className="flex">
             <ul className='flex gap-12'>
                 <li><a href="">Home</a></li>
                 <li><a href="">Fixture</a></li>
@@ -16,7 +16,8 @@ const navber = () => {
                 <li><a href="">Schedules</a></li>
             </ul>
             <button className="btn btn-square btn-ghost">
-              <img src={dolorimg} alt="" />
+              0 coin
+              <img src={dolorimg} alt="Doler Icon" />
             </button>
           </div>
         </div>

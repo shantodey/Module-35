@@ -1,0 +1,202 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/316600/316605.png",
+    "playerType": "Batsman",
+    "rating": 92,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm medium",
+    "price": 2400000
+  },
+  {
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/316500/316584.png",
+    "playerType": "Batsman",
+    "rating": 90,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 2000000
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/316400/316486.png",
+    "playerType": "Bowler",
+    "rating": 95,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1800000
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320448.png",
+    "playerType": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 1900000
+  },
+  {
+    "playerName": "Shaheen Afridi",
+    "playerCountry": "Pakistan",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/321100/321141.png",
+    "playerType": "Bowler",
+    "rating": 88,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm fast",
+    "price": 1500000
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320473.png",
+    "playerType": "All-rounder",
+    "rating": 93,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm leg-spin",
+    "price": 2100000
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/316500/316531.png",
+    "playerType": "All-rounder",
+    "rating": 89,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1700000
+  },
+  {
+    "playerName": "Pat Cummins",
+    "playerCountry": "Australia",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320455.png",
+    "playerType": "Bowler",
+    "rating": 90,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1600000
+  },
+  {
+    "playerName": "Shubman Gill",
+    "playerCountry": "India",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320464.png",
+    "playerType": "Batsman",
+    "rating": 87,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 1400000
+  },
+  {
+    "playerName": "Travis Head",
+    "playerCountry": "Australia",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320468.png",
+    "playerType": "Batsman",
+    "rating": 86,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 1300000
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320444.png",
+    "playerType": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 1950000
+  },
+  {
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320450.png",
+    "playerType": "Wicketkeeper",
+    "rating": 89,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": null,
+    "price": 1750000
+  },
+  {
+    "playerName": "Mitchell Starc",
+    "playerCountry": "Australia",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320459.png",
+    "playerType": "Bowler",
+    "rating": 88,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm fast",
+    "price": 1650000
+  },
+  {
+    "playerName": "Glenn Maxwell",
+    "playerCountry": "Australia",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320466.png",
+    "playerType": "All-rounder",
+    "rating": 87,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 1550000
+  },
+  {
+    "playerName": "Mohammad Rizwan",
+    "playerCountry": "Pakistan",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320449.png",
+    "playerType": "Wicketkeeper",
+    "rating": 86,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": null,
+    "price": 1450000
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320451.png",
+    "playerType": "Bowler",
+    "rating": 89,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 1600000
+  },
+  {
+    "playerName": "Suryakumar Yadav",
+    "playerCountry": "India",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320463.png",
+    "playerType": "Batsman",
+    "rating": 88,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off-break",
+    "price": 1350000
+  },
+  {
+    "playerName": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320447.png",
+    "playerType": "Wicketkeeper",
+    "rating": 85,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": null,
+    "price": 1400000
+  },
+  {
+    "playerName": "Kagiso Rabada",
+    "playerCountry": "South Africa",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320454.png",
+    "playerType": "Bowler",
+    "rating": 90,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1700000
+  },
+  {
+    "playerName": "Hardik Pandya",
+    "playerCountry": "India",
+    "playerImg": "https://p.imgci.com/db/PICTURES/CMS/320400/320465.png",
+    "playerType": "All-rounder",
+    "rating": 85,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1500000
+  }
+]
