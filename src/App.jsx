@@ -8,7 +8,7 @@ const getPlayer = async () => {
   return res.json();
 }
 function App() {
-  const [abCoine,setCoin]=useState(5000000)
+  const [abCoine,setCoin]=useState(50000000)
   const playerdata = getPlayer();
 
   return (

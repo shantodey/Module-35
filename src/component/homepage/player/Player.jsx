@@ -12,7 +12,7 @@ const Player = ({ playerdata,setCoin,abCoine }) => {
                 <h2 className='text-3xl'>{selectedType === "Available" ? "Available Players" : `Selected Player (${PlAyers.length}/${selectedplayers.length}) `}</h2>
                 <div>
                     <button onClick={() => setSctive("Available")} className={`btn ${selectedType === "Available" ? "bg-[#E7FE29]" : ""} rounded-r-none`}>Available</button>
-                    <button onClick={() => setSctive("Selected")} className={`btn ${selectedType === "Selected" ? "bg-[#E7FE29]" : ""} rounded-l-none  `}>Selected (0)</button>
+                    <button onClick={() => setSctive("Selected")} className={`btn ${selectedType === "Selected" ? "bg-[#E7FE29]" : ""} rounded-l-none  `}>Selected ({selectedplayers.length})</button>
                 </div>
             </div>
             {selectedType === "Available" ?
