@@ -1,8 +1,7 @@
 import { Suspense } from 'react';
-import './App.css'
 import Player from './component/homepage/player/Player';
-import Navber from './component/navber/navber'
 import Hero from './component/hero/Hero';
+import Navbar from './component/navbar/Navbar';
 
 const getPlayer = async () => {
   const res = await fetch("/data.json");
@@ -14,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Navber />
+      <Navbar/>
       <Hero/>
       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
         <Player playerdata={playerdata} />
