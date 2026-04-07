@@ -25,7 +25,9 @@ const Player = ({ playerdata,setCoin,abCoine }) => {
                 :
                 <SelectedPlayers 
                 selectedplayers={selectedplayers} 
-                setSelectedPlayers={setSelectedPlayers}/>}
+                setSelectedPlayers={setSelectedPlayers}
+                setCoin={setCoin} 
+                abCoine={abCoine}/>}
         </div>
 
     );

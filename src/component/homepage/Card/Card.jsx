@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { User, Flag } from 'lucide-react';
+import { toast } from 'react-toastify';
 
 
 const Card = ({ player, abCoine, setCoin,selectedplayers,setSelectedPlayers }) => {
@@ -8,10 +9,10 @@ const Card = ({ player, abCoine, setCoin,selectedplayers,setSelectedPlayers }) =
         const newCoin=abCoine - player.price ;
         if(newCoin>=0){
             setCoin(abCoine - player.price)
-            alert(`${player.playerName} is selected`)
+            toast.success(`${player.playerName} is selected`);
         }
         else{
-            alert(`Not Enougf money to seltct ${player.playerName}`)
+            toast.error(`Not Enougf money to seltct ${player.playerName}`);
             return
         }
         onSelected(true);

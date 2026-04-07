@@ -1,8 +1,11 @@
 import React from 'react';
 import { Trash2 } from 'lucide-react';
 
-const SelectedPlayers = ({ selectedplayers, setSelectedPlayers }) => {
-    const deleteSelectedPlayer = (playerToDelete) => { 
+const SelectedPlayers = ({ selectedplayers, setSelectedPlayers,abCoine,setCoin }) => {
+    const returnCoin=(player)=>{
+        setCoin(abCoine + player.price) ;
+    }
+    const deleteSelectedPlayer = (playerToDelete,) => { 
         const filterPlayers = selectedplayers.filter(
             (player) => player.playerName !== playerToDelete.playerName
         );
@@ -34,7 +37,7 @@ const SelectedPlayers = ({ selectedplayers, setSelectedPlayers }) => {
                             </div>
                         </div>
                         <button 
-                            onClick={() => deleteSelectedPlayer(player)} 
+                            onClick={() => {deleteSelectedPlayer(player);returnCoin(player)}} 
                             className="text-red-400 hover:text-red-600 transition-colors"
                         >
                             <Trash2 size={18} />
