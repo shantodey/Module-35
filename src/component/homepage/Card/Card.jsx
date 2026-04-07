@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { User, Flag } from 'lucide-react';
 
-const Card = ({ player, isSelected, handelChosePlayer }) => {
 
+const Card = ({ player, abCoine, setCoin,selectedplayers,setSelectedPlayers }) => {
+    const [isSelected, onSelected] = useState(false);
+    const handelChosePlayer = () => {
+        const newCoin=abCoine - player.price ;
+        if(newCoin>=0){
+            setCoin(abCoine - player.price)
+            alert(`${player.playerName} is selected`)
+        }
+        else{
+            alert(`Not Enougf money to seltct ${player.playerName}`)
+            return
+        }
+        onSelected(true);
+        setSelectedPlayers([...selectedplayers,player])
+    };
     return (
         <div className="card w-full bg-base-100 shadow-md border border-gray-200 p-4 rounded-2xl">
             <figure className="w-full overflow-hidden rounded-xl" style={{ height: '240px' }}>

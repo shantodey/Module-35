@@ -1,6 +1,6 @@
 import React from 'react';
 import dolorimg from "../../assets/dollar icon.png";
-import logo from "../../assets/logo-footer.png"
+import logo from "../../assets/logo.png"
 const navber = ({ abCoine }) => {
   return (
     <div className="container mx-auto">
