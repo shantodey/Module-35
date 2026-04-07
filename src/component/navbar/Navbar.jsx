@@ -1,7 +1,7 @@
 import React from 'react';
 import dolorimg from "../../assets/dollar icon.png";
 import logo from "../../assets/logo-footer.png"
-const navber = () => {
+const navber = ({abCoine}) => {
     return (
         <div className="container mx-auto">
         <div className="navbar bg-base-100 shadow-sm">
@@ -16,7 +16,7 @@ const navber = () => {
                 <li><a href="">Schedules</a></li>
             </ul>
             <button className="btn btn-square btn-ghost">
-              0 coin
+              {abCoine} coin
               <img src={dolorimg} alt="Doler Icon" />
             </button>
           </div>

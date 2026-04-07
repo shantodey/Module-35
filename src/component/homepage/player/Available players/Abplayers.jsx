@@ -14,14 +14,11 @@ const Abplayers = ({ PlAyers }) => {
                             className=" h-full object-cover "
                         />
                     </figure>
-
                     <div className="card-body px-2 pt-4 pb-2">
                         <div className="flex items-center gap-2">
                             <User size={18} className="text-gray-500" />
                             <h2 className="font-bold text-base">{player.playerName}</h2>
                         </div>
-
-                        {/* Country + Type */}
                         <div className="flex justify-between items-center mt-1">
                             <div className="flex items-center gap-1 text-gray-400 text-sm">
                                 <Flag size={14} />
@@ -31,28 +28,20 @@ const Abplayers = ({ PlAyers }) => {
                                 {player.playerType}
                             </div>
                         </div>
-
                         <div className="divider my-1"></div>
-
-                        {/* Rating label */}
                         <div className="flex justify-between items-center">
                             <span className="font-bold text-sm">Rating</span>
                         </div>
-
-                        {/* Batting / Bowling */}
                         <div className="flex justify-between items-center">
                             <span className="font-bold text-sm">{player.battingStyle}</span>
                             <span className="text-gray-400 text-sm">{player.bowlingStyle}</span>
                         </div>
-
-                        {/* Price + Button */}
                         <div className="flex justify-between items-center mt-2">
                             <span className="font-bold text-sm">Price: ${player.price}</span>
-                            <button onClick={()=>onSelected(true)} className="btn btn-outline btn-sm border-gray-300 hover:bg-black hover:text-white capitalize rounded-xl px-4 text-xs">
+                            <button onClick={()=>onSelected(true)} disabled={isSelected?true:false} className="btn btn-outline btn-sm border-gray-300 hover:bg-black hover:text-white capitalize rounded-xl px-4 text-xs">
                                 {isSelected===true?"Selected":"Choose Player"}
                             </button>
                         </div>
-
                     </div>
                 </div>
             ))}
