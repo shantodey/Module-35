@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { User, Flag } from 'lucide-react';
 
 const Abplayers = ({ PlAyers }) => {
+    const [isSelected,onSelected]=useState(false)
     return (
         <div className="grid grid-cols-3 gap-4">
             {PlAyers.map((player) => (
@@ -47,8 +48,8 @@ const Abplayers = ({ PlAyers }) => {
                         {/* Price + Button */}
                         <div className="flex justify-between items-center mt-2">
                             <span className="font-bold text-sm">Price: ${player.price}</span>
-                            <button className="btn btn-outline btn-sm border-gray-300 hover:bg-black hover:text-white capitalize rounded-xl px-4 text-xs">
-                                Choose Player
+                            <button onClick={()=>onSelected(true)} className="btn btn-outline btn-sm border-gray-300 hover:bg-black hover:text-white capitalize rounded-xl px-4 text-xs">
+                                {isSelected===true?"Selected":"Choose Player"}
                             </button>
                         </div>
 
